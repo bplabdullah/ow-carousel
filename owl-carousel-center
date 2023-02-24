@@ -1,0 +1,112 @@
+<link href = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+<style>
+    .owl-stage {
+    display: flex;
+}
+
+.owl-stage-outer {
+    overflow: hidden;
+}
+div#testimonial-carousel .owl-item p {
+    font-size: 13px;
+    color: #696969;
+    font-family: 'Anek Gujarati';
+}
+.item {
+    position: relative;
+    width: 95%;
+    padding-left: 40px;
+}
+
+div#testimonial-carousel .owl-item  h4 {
+    font-family: 'Anek Gujarati';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #696969;
+    padding-top: 20px;
+}
+
+div#testimonial-carousel .owl-item.center p {
+    color: #000;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+div#testimonial-carousel .owl-item .item::before {
+    content: '';
+    position: absolute;
+    background-image: url('/fiverr-review/wp-content/uploads/2023/02/unnamed-file.png');
+    width: 76px;
+    height: 58px;
+    background-repeat: no-repeat;
+    top: -40px;
+    left: 0px;
+    z-index: -9;
+    filter: grayscale(1);
+    opacity: 0.4;
+}
+
+div#testimonial-carousel .owl-item.center h4 {
+    font-size: 16px;
+    color: #00B22D;
+    font-weight: 500;
+}
+
+div#testimonial-carousel .owl-item.center .item::before {
+    opacity: 1;
+    filter: unset;
+}
+</style>
+<div id="testimonial-carousel" class="owl-carousel post owl-theme">
+<div class="item">
+    <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you will get. </p>
+    <h4>CALUM CHAMBERS</h4>
+</div>
+<div class="item">
+    <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you will get. </p>
+    <h4>CALUM CHAMBERS</h4>
+</div>
+<div class="item">
+    <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you will get. </p>
+    <h4>CALUM CHAMBERS</h4>
+</div>
+<div class="item">
+    <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you will get. </p>
+    <h4>CALUM CHAMBERS</h4>
+</div>
+<div class="item">
+    <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you will get. </p>
+    <h4>CALUM CHAMBERS</h4>
+</div>
+</div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"
+      integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+jQuery('#testimonial-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+	dots: false,
+	center: true,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+});
+
+</script>
